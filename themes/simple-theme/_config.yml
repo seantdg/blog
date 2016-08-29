@@ -11,7 +11,7 @@ social:
   weibo:
   github:
   googleplus:
-  rss: /atom.xml
+  rss:
 
 # Content
 fancybox: true # set to true if you want to use it
