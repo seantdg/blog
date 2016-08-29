@@ -8,17 +8,18 @@ tags:
 category: Development
 ---
 
-Right now, this site is hosted on a $5 per month Digital Ocean droplet. That gives me:
+Right now, this site is hosted on a $5 per month [Digital Ocean](https://www.digitalocean.com/) droplet. 
+
+That gives me:
  - 512 MB Memory
  - 1 Core Processor
  - 20GB SSD
 
-I am looking forward to running a quick performance test to see how much traffic it can handle. Once I have gathered these results, I will configure a CDN and re-run the test to see the results.
+I am looking forward to running a quick performance test to see how much traffic it can handle. If the results are not satisfactory, I will look at how I can improve performance.
 
-I have manually installed Nginx, Git, Node.js and the Hexo CLI. It would be good to dockerize this blog for a number of reasons.
- - My machine runs Mac OS X, Ubuntu and Windows 10. Maintaining a consistent development environment for any project will be important.
- - Tracking which versions of each dependency I have successfully used is an additional overhead I don't need.
- - Scaling will be easier to automate using Kubernetes or Docker Swarm.
+I have manually installed [Nginx](https://www.nginx.com/), [Git](https://git-scm.com/), [Node.js](https://nodejs.org/en/) and the [Hexo CLI](https://hexo.io/). It would be good to [containerize](http://www.docker.com/) this blog for a number of reasons.
+ - My machine runs Mac OS X, Ubuntu and Windows 10. Maintaining a consistent environment for any project will be important.
+ - Scaling will be easier to automate using [Kubernetes](http://kubernetes.io/) or [Docker Swarm](https://docs.docker.com/swarm/).
  
-So watch this space for performance testing and docker-ising!
+So watch this space for performance testing and containerizing!
 
