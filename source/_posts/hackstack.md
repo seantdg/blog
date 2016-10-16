@@ -60,7 +60,7 @@ http {
 	}
 }
 ```
-[*Source*](https://github.com/seantdg/ProjectTemplate/blob/master/web/nginx/nginx.con)
+[*Source*](https://github.com/seantdg/ProjectTemplate/blob/master/web/nginx/nginx.conf)
 
 I have created a simple to-do list app to test connectivity of the complete stack. It also looks pretty good on mobile devices!
 
